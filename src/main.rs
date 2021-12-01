@@ -1,9 +1,8 @@
-use crate::tag01::{test1, test2};
+use crate::tag01::{teil1, teil2};
 
 mod tag01;
 
 fn main() {
-    //test1();
-    println!("Hello, world!");
-    test2()
+    teil1();
+    teil2()
 }

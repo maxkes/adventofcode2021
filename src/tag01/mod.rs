@@ -1,4 +1,4 @@
-pub fn test1() {
+pub fn teil1() {
     let mut number = 0;
     let mut var_alt = -1;
     let input_text = std::fs::read_to_string("src/tag01/Input.txt").unwrap();
@@ -16,31 +16,9 @@ pub fn test1() {
         var_alt = *line;
     }
     println!("Anzahl: {}", number);
-    return;
-
-    for var in data.iter(){
-        let splitted = data.split_first().unwrap();
-        for var1 in splitted.1.iter() {
-            //print!("{}", var);
-            // print!("{}", " ");
-            // println!("{}", var1);
-            if var + var1 == 2020 {
-                print!("{}", var);
-                print!("{}", "+");
-                print!("{}", var1);
-                print!("{}", " = ");
-                println!("{}", var + var1);
-                print!("{}", var);
-                print!("{}", "*");
-                print!("{}", var1);
-                print!("{}", " = ");
-                println!("{}", var * var1);
-                }
-        }
-    }
 }
 
-pub fn test2() {
+pub fn teil2() {
     let mut number = 0;
     let mut var_alt = -1;
     let mut increased = 0;
